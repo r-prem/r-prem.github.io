@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "experience": "Experience",
+    "articles": "Articles",
+    "imprint": "Imprint"
+  },
+  "home": {
+    "hey": "Hey,",
+    "i_am": "I'm ",
+    "name": "Raffael,",
+    "dev": "Frontend Developer."
+  },
+  "about": {
+    "title": "About",
+    "text": "I am a passionate front-end developer from Austria with years of experience building dynamic and user-friendly web applications. Specializing in Angular, I have a strong foundation in creating scalable and maintainable applications. My experience spans a variety of projects, from small business websites to more complex, interactive applications. I also have hands-on experience with React, giving me versatility in modern front-end frameworks.",
+    "tech": {
+      "title": "Technologies",
+      "text": "I have experience with a broad set of technologies. While this isn't a complete list, here are some of the key ones I’ve worked with:"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "text": "This section showcases my projects. Here, you'll find a collection of my work, including both personal and open-source projects. Currently, the spotlight is on my open-source library, which I’ve developed to help others in the community. I’m always working on new ideas and improvements, so stay tuned for more projects to come!",
+    "projects": {
+      "ngx-boxy-svg": {
+        "title": "ngx-boxy-svg",
+        "text": "A simple Angular library which wraps the Boxy SVG component, allowing users to very easily integrate the BoxySVG component into their Angular applications."
+      }
+    }
+  },
+  "experience": {
+    "title": "Experience",
+    "text": "My journey in tech has been shaped by a diverse range of roles, each adding new skills and perspectives to my expertise. From hands-on front-end development to overseeing projects as a Technical Product Owner, every position has contributed to my growth as a developer and problem-solver. Here’s a look at the roles that have defined my career so far.",
+    "present": "Present",
+    "agilox": {
+      "company": "Agilox Services GmbH",
+      "title": "Frontend Developer / TPO",
+      "description": "<p>Actively participated in the development of a diverse range of products, with a strong emphasis on frontend web development using Angular.</p> <ul> <li>Involved in product planning.</li> <li>Conducted code reviews and managed CI/CD processes.</li> <li>Managed CI/CD processes.</li><li>Technical Product Owner (TPO) for three applications.</li> </ul>"
+    },
+    "uni": {
+      "company": "University of Innsbruck",
+      "title": "Software Developer",
+      "description": "Worked on the development of the <a href=\"https://dbis-uibk.github.io/relax/\" target=\"_blank\" class=\"font-semibold\"> RelaX Tool</a> for the <a href=\"https://dbis.uibk.ac.at/\" target=\"_blank\" class=\"font-semibold\"> DBIS Research Group</a>, focusing on implementing new features and fixing bugs. My responsibilities included enhancing tool functionality, improving user experience, and collaborating closely with the research team to align development with project goals and user needs."
+    },
+    "mgm": {
+      "company": "mgm Software Team GmbH",
+      "title": "Software Developer",
+      "description": "Played a key role in shaping a diverse product range, with a particular focus on frontend web development. Assisted in support and project planning. Additionally, I developed a proprietary product, working on both the backend and frontend, and collaborated with external partners, including payment providers and customers."
+    }
+  },
+  "articles": {
+    "title": "Articles",
+    "text": "I recently started writing articles focused on Angular. My goal is to deepen my knowledge of specific subjects while helping new users by simplifying concepts and explaining why certain approaches are recommended.",
+    "articles": {
+      "pipes-vs-component-functions": {
+        "title": "Using Pipes instead of Component Functions in Angular",
+        "text": "In this article, I compare using functions in Angular components versus pipes for data manipulation in templates. While functions may seem like a quick solution, they can lead to performance issues due to Angular's change detection. Pipes, on the other hand, offer improved performance, maintainability, and testability by encapsulating logic in a reusable, clean, and efficient way."
+      },
+      "angular-let": {
+        "title": "Another @let Article",
+        "text": "The @let operator in Angular v18.1 allows developers to create local variables directly in templates, improving flexibility and readability. It is especially useful for reducing redundant async pipe usage and simplifying nested conditional logic. However, it should be used with caution to avoid cluttering templates with unnecessary variables or business logic, which can reduce clarity."
+      }
+    }
+  }
+}

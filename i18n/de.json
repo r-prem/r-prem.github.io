@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "Über mich",
+    "projects": "Projekte",
+    "experience": "Erfahrung",
+    "articles": "Artikel",
+    "imprint": "Impressum"
+  },
+  "home": {
+    "hey": "Hey,",
+    "i_am": "",
+    "name": "Raffael.",
+    "dev": "Frontend-Entwickler."
+  },
+  "about": {
+    "title": "Über mich",
+    "text": "Ich bin ein leidenschaftlicher Frontend-Entwickler aus Österreich mit jahrelanger Erfahrung im Aufbau dynamischer und benutzerfreundlicher Webanwendungen. Mit meiner Spezialisierung auf Angular habe ich eine starke Basis für die Erstellung skalierbarer und wartbarer Anwendungen. Meine Erfahrung umfasst eine Vielzahl von Projekten, von kleinen Unternehmenswebseiten bis hin zu komplexeren, interaktiven Anwendungen. Zudem habe ich praktische Erfahrung mit React, was mir Vielseitigkeit in modernen Frontend-Frameworks verleiht.",
+    "tech": {
+      "title": "Technologien",
+      "text": "Ich habe Erfahrung mit einer Vielzahl von Technologien. Dies ist zwar keine vollständige Liste, aber hier sind einige der wichtigsten, mit denen ich gearbeitet habe:"
+    }
+  },
+  "projects": {
+    "title": "Projekte",
+    "text": "Dieser Abschnitt zeigt meine Projekte. Hier finden Sie eine Sammlung meiner Arbeit, einschließlich persönlicher und Open-Source-Projekte. Aktuell liegt der Fokus auf meiner Open-Source-Bibliothek, die ich entwickelt habe, um der Community zu helfen. Ich arbeite ständig an neuen Ideen und Verbesserungen, also bleiben Sie gespannt auf weitere Projekte!",
+    "projects": {
+      "ngx-boxy-svg": {
+        "title": "ngx-boxy-svg",
+        "text": "Eine einfache Angular-Bibliothek, die die Boxy-SVG-Komponente umschließt und es Nutzern ermöglicht, die BoxySVG-Komponente sehr einfach in ihre Angular-Anwendungen zu integrieren."
+      }
+    }
+  },
+  "experience": {
+    "title": "Erfahrung",
+    "text": "Meine Laufbahn in der Tech-Branche wurde durch eine Vielzahl von Rollen geprägt, die jeweils neue Fähigkeiten und Perspektiven zu meinem Fachwissen beigetragen haben. Von praktischer Frontend-Entwicklung bis hin zur Projektleitung als Technischer Product Owner – jede Position hat zu meinem Wachstum als Entwickler und Problemlöser beigetragen. Hier ist ein Überblick über die Erfahrungen, die meine Karriere bisher geprägt haben.",
+    "present": "Heute",
+    "agilox": {
+      "company": "Agilox Services GmbH",
+      "title": "Frontend-Entwickler / TPO",
+      "description": "<p>Aktive Mitarbeit an der Entwicklung eines breiten Produktspektrums mit starkem Fokus auf Frontend-Webentwicklung mit Angular.</p> <ul> <li>Beteiligung an der Produktplanung.</li> <li>Durchführung von Code-Reviews und Verwaltung von CI/CD-Prozessen.</li> <li>Verwaltung von CI/CD-Prozessen.</li><li>Technischer Product Owner (TPO) für drei Anwendungen.</li> </ul>"
+    },
+    "uni": {
+      "company": "Universität Innsbruck",
+      "title": "Softwareentwickler",
+      "description": "Arbeit an der Entwicklung des <a href=\"https://dbis-uibk.github.io/relax/\" target=\"_blank\" class=\"font-semibold\">RelaX Tools</a> für die <a href=\"https://dbis.uibk.ac.at/\" target=\"_blank\" class=\"font-semibold\">DBIS Forschungsgruppe</a>, mit Fokus auf der Implementierung neuer Funktionen und Fehlerbehebung. Zu meinen Aufgaben gehörten die Erweiterung der Tool-Funktionalität, die Verbesserung der Benutzererfahrung und die enge Zusammenarbeit mit dem Forschungsteam, um die Entwicklung an Projektziele und Benutzeranforderungen anzupassen."
+    },
+    "mgm": {
+      "company": "mgm Software Team GmbH",
+      "title": "Softwareentwickler",
+      "description": "Beteiligung an der Gestaltung eines vielseitigen Produktspektrums mit besonderem Fokus auf Frontend-Webentwicklung. Unterstützung im Support und in der Projektplanung. Zusätzlich entwickelte ich ein proprietäres Produkt, arbeitete am Backend und Frontend und kooperierte mit externen Partnern, einschließlich Zahlungsdienstleistern und Kunden."
+    }
+  },
+  "articles": {
+    "title": "Artikel",
+    "text": "Ich habe kürzlich begonnen, Artikel zu schreiben, die sich auf Angular konzentrieren. Mein Ziel ist es, mein Wissen zu bestimmten Themen weiter zu vertiefen und gleichzeitig neuen Nutzern zu helfen, indem ich Konzepte vereinfache und erkläre, warum bestimmte Ansätze empfohlen werden. Die Artikel sind nur in Englisch verfügbar.",
+    "articles": {
+      "pipes-vs-component-functions": {
+        "title": "Using Pipes instead of Component Functions in Angular",
+        "text": "In diesem Artikel vergleiche ich die Verwendung von Funktionen in Angular-Komponenten mit Pipes zur Datenmanipulation in Templates. Während Funktionen zunächst eine schnelle Lösung zu sein scheinen, können sie aufgrund der Change-Detection von Angular zu Performance-Problemen führen. Pipes bieten hingegen eine bessere Performance, Wartbarkeit und Testbarkeit, da sie die Logik in einer wiederverwendbaren, sauberen und effizienten Weise kapseln."
+      },
+      "angular-let": {
+        "title": "Another @let Article",
+        "text": "Der @let Operator in Angular v18.1 ermöglicht es Entwicklern, lokale Variablen direkt in Templates zu erstellen, was die Flexibilität und Lesbarkeit verbessert. Er ist besonders nützlich, um die wiederholte Verwendung des async Pipes zu reduzieren und verschachtelte bedingte Logik zu vereinfachen. Allerdings sollte er mit Bedacht eingesetzt werden, um Templates nicht mit unnötigen Variablen oder Geschäftslogik zu überladen, was die Klarheit beeinträchtigen kann."
+      }
+    }
+  }
+}
